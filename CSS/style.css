@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    /* it means the border width and height should be added inside the width and height of the content box. */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    height: 45px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* box 1 */
+
+.nav-logo{
+    height: 40px;
+    width: 80px;
+}
+
+.logo{
+    height: 40px;
+    width: 80px;
+    background-image: url("../MEDIA/amazon_logo.png");
+    background-size: cover;
+}
+
+.Border{
+    border: 1.5px solid transparent
+}
+
+.Border:hover{
+    border: 1.5px solid white;
+}
+
+/* box 2 */
+
+.add-first{
+    color: #cccccc;
+    font-size: 0.5rem;
+    margin-left: 15px;
+}
+
+.add-sec{
+    font-size: 0.75rem;
+    font-weight: bolder;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+/* box 3 */
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    width: 420px;
+    height: 30px;
+    border-radius: 4px;
+
+}
+
+.nav-search:hover{
+    border: 2px solid #eb9e38;
+    border-radius: 7px;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 45px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    font-size: 0.7rem;
+}
+
+.search-input{
+    width: 100%;
+    /* it means all the empty area will be taken by this search box */
+    font-size: 0.7rem;
+    border: none;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #eb9e38;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+
+.language{
+    font-size: 0.6rem;
+}
+
+/* box 5 and box 6*/
+span{
+    font-size: 0.5rem;
+}
+
+.nav-second{
+    font-size: 0.6rem;
+    font-weight: 600;
+}
+
+/* box 7 */
+
+/* .nav-cart i{ } :- targets any <i> element (icon) that is inside an element with the class nav-cart.  */
+.nav-cart i{
+    font-size: 1.4rem;
+}
+
+.nav-cart{
+    font-size: 0.6rem;
+    font-weight: 600;
+}
+
+/* panels */
+.panel{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #222f3d;
+    color: #ffffff;
+    height: 20px;
+}
+
+.panel-all{
+    font-size: 0.7rem;
+    font-weight: 550;
+}
+
+.panel-ops p{
+    display: inline;
+    margin-left: 10px;
+}
+
+.panel-ops{
+    width: 80%;
+    font-size: 0.6rem;
+}
+
+.panel-deals{
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+
+.panel-ops p:hover{
+    border: #ffffff solid 1px;
+}
+
+.panel-all:hover{
+    border: #ffffff solid 1px;
+}
+
+.panel-deals:hover{
+        border: #ffffff solid 1px;
+}
+
+
+/* hero section */
+
+.hero-section{
+    background-image: url("../MEDIA/619geyiQI5L._SX3000_.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #e3e0e0;
+}
+
+.hero-message{
+    background-color: white;
+    color: #0f1111;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    width: 90%;
+    font-weight: 400;
+    margin-bottom: 225px;
+}
+
+.hero-message span a{
+    text-decoration: none;
+    font-size: 10px;
+    color: #2162a1;
+}
+
+
+.hero-message span{
+    font-size: 10px;
+}
+
+/* shopping section */
+
+.shop-section-1{
+    display: flex;
+    justify-content:space-evenly;
+    background-color:  #e3e0e0;
+}
+
+
+.frowbox{
+    margin-top: -100px;
+    width: 23%;
+    height: 280px;
+    background-color: white;
+}
+
+
+.frowbox h2{
+    font-size: 16px;
+    margin: 10px;
+}
+
+.frowbox a{
+    text-decoration: none;
+    font-size: 9px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color: #2162a1;
+}
+
+.gaming-img{
+    height: 200px;
+    width: 90% ;
+    margin-left: 10px;
+    background-image: url("../MEDIA/Fuji_Gaming_store_Dashboard_card_2x_EN._SY608_CB564799420_.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.Mcolumns{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Mcolumns div{
+    font-size: 8px;
+    color: #2162a1;
+}
+
+.jeans{
+    height: 90px;
+    width: 85px;
+    background-image: url("../MEDIA/DQC_APR_TBYB_W_BOTTOMS_2x._SY232_CB624172947_.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 5px;
+}
+
+.tops{
+    height: 90px;
+    width: 85px;
+    background-image: url("../MEDIA/DQC_APR_TBYB_W_TOPS_2x._SY232_CB623353881_.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 5px;
+}
+
+.dresses{
+    height: 90px;
+    width: 85px;
+    background-image: url("../MEDIA/DQC_APR_TBYB_W_DRESSES_2x._SY232_CB623353881_.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 5px;
+}
+
+.shoes{
+    height: 90px;
+    width: 85px;
+    background-image: url("../MEDIA/DQC_APR_TBYB_W_SHOES_2x._SY232_CB624172947_.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 5px;
+}
+.shop-section-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    background-color:  #e3e0e0;
+}
+
+.srowbox{
+    margin-top: 15px;
+    width: 23%;
+    height: 280px;
+    background-color: white;
+}
